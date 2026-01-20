@@ -10,7 +10,7 @@ app = Flask(__name__, template_folder=custom_template_dir)
 # FIXME: Make modularity of a POST request function that can be imported and reused via the bridgeArduinoTemplate.py to be called within here
 @app.route('/') # scours the template_folder within subdirectory template for index.html
 def index():
-    target_url = "https://hypsometrical-freddie-nonpropagative.ngrok-free.dev/api"
+    target_url = ""
     payload = {"temperature": 22.5, 
                "status": "active", 
                "userSwitchState": True, 
