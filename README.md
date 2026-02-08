@@ -1,4 +1,4 @@
-# thermal-control-evolution
+# IoT Thermal Fan Control Evolution
 ## IoT Thermal Control Evolution Project Setup
 
 ### Phase 1: Arduino Prototype (Arduino Uno R3)
