@@ -1,0 +1,2 @@
+this subdirectory is meant to be the endpoint sent from web-app. This contains two seperate subdirectories: microcontroller implementation(NAME ME) & 
+middle man (PYTHON SCRIPT NAME ME)
