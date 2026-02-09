@@ -10,20 +10,22 @@ app = Flask(__name__, template_folder=custom_template_dir)
 # FIXME: Make modularity of a POST request function that can be imported and reused via the bridgeArduinoTemplate.py to be called within here
 @app.route('/') # scours the template_folder within subdirectory template for index.html
 def index():
-    #target_url = ""
+    # FIXME - this will be the ngrok tunnel to the local laptops tunnel, which will be the target URL for POST requests made from client view
+    # Objective: learn to encrypt the target url for security purposes, and to increase use across all devices without hardcoding URL
+    # purpose: to increase security and modularity of code and prevent malicious actors from using URL
+    #target_url = "" 
     payload = {"temperature": 22.5, 
                "status": "active", 
                "userSwitchState": True, 
                "POST-Status": "Unknown"}
 
-    # 1. Explicitly define headers
+
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json",
         "ngrok-skip-browser-warning": "69420" # This bypasses the ngrok splash screen
     }
 
-    # 2. Use requests.post for better readability
     # Adding timeout is also good practice for networked requests
     try:
         response = requests.post(

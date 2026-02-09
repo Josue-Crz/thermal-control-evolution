@@ -1,4 +1,4 @@
-# themal-control-evolution
+# IoT Thermal Fan Control Evolution
 ## IoT Thermal Control Evolution Project Setup
 
 ### Phase 1: Arduino Prototype (Arduino Uno R3)
@@ -34,24 +34,3 @@
 
 
 
-<!-- START COPILOT ORIGINAL PROMPT -->
-
-
-
-<details>
-
-<summary>Original prompt</summary>
-
-> Well my project is gonna be an IoT app that controls a fan through a web app, with real time monitoring of the temperature. I plan on making my prototype with Arduino libraries, converting it to raw avr C then finally convert the project from an arduino uno r3 to another micro controller: stm32f401re
-> 
-> 
-
-
-</details>
-
-
-
-<!-- START COPILOT CODING AGENT TIPS -->
----
-
-💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.
